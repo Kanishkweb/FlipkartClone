@@ -1,0 +1,141 @@
+/* Section Card Boxes   */
+
+
+/* Button  */
+
+.previous-btn{
+    position: absolute;
+    font-size: 5rem;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    border: none;
+    border-radius: 8px;
+}
+.next-btn{
+    position: absolute;
+    font-size: 5rem;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+    border: none;
+    border-radius: 8px;
+}
+.cardbox1 {
+    gap: 25px;
+    display: flex;
+    overflow: hidden;
+    max-height: 40vh;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.poster{
+    position: static;
+    left: 0;
+    top: 2px;
+    height: 100%;
+    width: 50%;
+}
+.poster img{
+    max-height: 48vh;
+    max-width: 18vw;
+}
+.poster-img{
+    display: flex;
+    gap: 20px;
+}
+
+.cardbox2 {
+    gap: 25px;
+    display: flex;
+    overflow: hidden;
+    max-height: 40vh;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+.cardbox3 {
+    gap: 25px;
+    display: flex;
+    overflow: hidden;
+    max-height: 40vh;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+.cardbox4 {
+    gap: 25px;
+    display: flex;
+    overflow: hidden;
+    max-height: 40vh;
+    margin: auto;
+    width: 100%;
+    position: relative;   
+}
+.cardbox5 {
+    gap: 25px;
+    display: flex;
+    overflow: hidden;
+    max-height: 40vh;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.card-box{
+    width: 20vw;
+    margin: 10px auto;
+    border: 3px solid grey;
+    overflow: hidden;
+    /* display: flex;1 */
+    /* justify-content: center; */
+}
+.card-box img{
+    margin: 10px 52px;
+    height: 60%;
+    width: 60%;
+    cursor: pointer;
+}
+
+
+
+.card-box:hover img {
+    transform: scale(1.2);
+}
+
+.card-box h3{
+    margin: 0% 35%;
+    padding:4px 2px;
+}
+.card-box p{
+    margin: 0% 35%;
+    padding:4px 2px;
+    color: green;
+    font-size: 16px;
+}
+.card-box h4{
+    margin: 0% 35%;
+    padding:4px 2px;
+    color: grey;
+}
+
+
+/* // Footer CSS     */
+
+.footer{
+    background-color: #2874f0;
+    width: 100vw;
+    height: 5vh;
+    overflow: hidden;
+    border: 2px solid red;
+    position: sticky;
+}
+
+#card-btn-left{
+   
+}
+#card-btn-right{
+    
+}

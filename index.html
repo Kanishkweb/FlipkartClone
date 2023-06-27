@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/cardbox.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/Favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- <link rel="stylesheet" href="css/test.css"> -->
+    <title>
+      Online Shopping Site for Mobiles, Electronics, Furniture, Grocery,
+      Lifestyle, Books & More. Best Offers!
+    </title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar    -->
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="Flipkart" />
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Search for products,brands and more"
+          />
+          <span class="search-icon"
+            ><i
+              class="fa-sharp fa-solid fa-magnifying-glass"
+              style="color: #2874f0"
+            ></i
+          ></span>
+        </div>
+        <div class="login">
+          <button>Login</button>
+        </div>
+        <ul>
+          <div class="become"><a href="">Become a Seller</a></div>
+          <!-- <div class="dropdown">
+                    <button class="dropbtn">
+                        More<i class="fa-sharp fa-light fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown_content">
+                        <a href="#"><i class="fa-regular fa-bell"></i>Nortification Preferences</a>
+                        <a href="#"><i class="fa-solid fa-messages-question"></i>24x7 Customer Care</a>
+                        <a href="#"><i class="fa-solid fa-arrow-trend-up"></i>Advertise</a>
+                        <a href="#"><i class="fa-solid fa-down-to-line"></i>Download App</a>
+                    </div>
+                </div> -->
+          <div class="dropbtn">More</div>
+          <li>
+            <a href="#"
+              ><i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i
+              >Cart</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="navcards">
+        <div class="card">
+          <img src="assets/nav/1.png" alt="navcard" />
+          <h3><a href="#">Grocery</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/2.png" alt="navcard" />
+          <h3><a href="#">Mobiles</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/3.png" alt="navcard" />
+          <h3><a href="#">Fashion</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/4.png" alt="navcard" />
+          <h3><a href="#">Electronics</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/5.png" alt="navcard" />
+          <h3><a href="#">Home</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/6.png" alt="navcard" />
+          <h3><a href="#">Appliances</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/7.png" alt="navcard" />
+          <h3><a href="#">Travel</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/8.png" alt="navcard" />
+          <h3><a href="#">Beauty,Toys & more</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/9.png" alt="navcard" />
+          <h3><a href="#">Two Wheeler</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+        <div class="card">
+          <img src="assets/nav/10.png" alt="navcard" />
+          <h3><a href="#">Top Offers</a></h3>
+          <p>From ₹49</p>
+          <h4>Zebronics</h4>
+        </div>
+      </section>
+      <hr />
+      <section class="slider">
+        <button class="previous-btn" onclick="goPrev()">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <img class="slide" src="assets/slider/1.png" alt="slider" />
+        <img class="slide" src="assets/slider/2.png" alt="slider" />
+        <img class="slide" src="assets/slider/3.png" alt="slider" />
+        <img class="slide" src="assets/slider/4.png" alt="slider" />
+        <img class="slide" src="assets/slider/5.png" alt="slider" />
+        <button class="next-btn" id="card-btn-left" onclick="goNext()">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </section>
+      <!-- <div class="btnslider">
+            <button >Previous</button>
+            <button >Next</button>
+        </div> -->
+      <hr />
+      <section class="cardbox1" id="cardProductContainer">
+        <div class="poster">
+          <img src="assets/poster/1.png" alt="" />
+        </div>
+        <button class="previous-btn" id="card-btn-right">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="poster-img">
+          <div class="card-box">
+            <img src="assets/cardbox1/1.png" alt="cardbox1.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox1/2.png" alt="cardbox2.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox1/3.png" alt="cardbox3.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox1/4.png" alt="cardbox4.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox1/5.png" alt="cardbox5.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox1/6.png" alt="cardbox6.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox1/7.png" alt="cardbox7.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox1/8.png" alt="cardbox8.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <button class="next-btn" id="card-btn-left">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <div class="trailer"></div>
+      </section>
+      <hr />
+      <section class="cardbox2">
+        <div class="poster">
+          <img src="assets/poster/2.png" alt="" />
+        </div>
+        <button class="previous-btn" id="card-btn-right" onclick="goPrev()">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="poster-img">
+          <div class="card-box">
+            <img src="assets/cardbox2/1.png" alt="cardbox1.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox2/2.png" alt="cardbox2.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox2/3.png" alt="cardbox3.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox2/4.png" alt="cardbox4.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox2/5.png" alt="cardbox5.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox2/6.png" alt="cardbox6.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox2/7.png" alt="cardbox7.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox2/8.png" alt="cardbox8.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <button class="next-btn" id="card-btn-left" onclick="goNext()">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <div class="trailer"></div>
+      </section>
+      <hr />
+      <section class="cardbox3">
+        <div class="poster">
+          <img src="assets/poster/3.png" alt="" />
+        </div>
+        <button class="previous-btn" id="card-btn-right" onclick="goPrev()">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="poster-img">
+          <div class="card-box">
+            <img src="assets/cardbox3/1.png" alt="cardbox1.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox3/2.png" alt="cardbox2.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox3/3.png" alt="cardbox3.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox3/4.png" alt="cardbox4.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox3/5.png" alt="cardbox5.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox3/6.png" alt="cardbox6.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox3/7.png" alt="cardbox7.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox3/8.png" alt="cardbox8.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <button class="next-btn" id="card-btn-left" onclick="goNext()">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <div class="trailer"></div>
+      </section>
+      <section class="cardbox4">
+        <div class="poster">
+          <img src="assets/poster/4.png" alt="" />
+        </div>
+        <button class="previous-btn" id="card-btn-right" onclick="goPrev()">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="poster-img">
+          <div class="card-box">
+            <img src="assets/cardbox4/1.png" alt="cardbox1.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox4/2.png" alt="cardbox2.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox4/3.png" alt="cardbox3.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox4/4.png" alt="cardbox4.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox4/5.png" alt="cardbox5.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox4/6.png" alt="cardbox6.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox4/7.png" alt="cardbox7.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox4/8.png" alt="cardbox8.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <button class="next-btn" id="card-btn-left" onclick="goNext()">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <div class="trailer"></div>
+      </section>
+      <hr />
+      <section class="cardbox5">
+        <div class="poster">
+          <img src="assets/poster/5.png" alt="" />
+        </div>
+        <button class="previous-btn" id="card-btn-right" onclick="goPrev()">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <div class="poster-img">
+          <div class="card-box">
+            <img src="assets/cardbox5/1.png" alt="cardbox1.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox5/2.png" alt="cardbox2.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox5/3.png" alt="cardbox3.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox5/4.png" alt="cardbox4.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox5/5.png" alt="cardbox5.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox5/6.png" alt="cardbox6.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox5/7.png" alt="cardbox7.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <div class="card-box">
+            <img src="assets/cardbox5/8.png" alt="cardbox8.png" />
+            <h3>Printers</h3>
+            <p>From ₹49</p>
+            <h4>Zebronics</h4>
+          </div>
+          <button class="next-btn" id="card-btn-left" onclick="goNext()">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <div class="trailer"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer"></div>
+    </footer>
+
+    <!-- Adding scripts  -->
+    <script
+      src="https://kit.fontawesome.com/4656d5f17e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

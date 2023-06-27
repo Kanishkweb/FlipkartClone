@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #f1f3f6; */
+}
+main{
+    /* background-color: #f1f3f6; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 1); */
+
+}
+
+/* header   */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+
+
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* overflow: hidden; */
+}
+
+.navbar{
+    display: flex;
+    background-color: #2874f0;
+    width: 100vw;
+    height: 7vh;
+    gap: 25px;
+    overflow: hidden;
+    /* position: sticky; */
+    /* top: 0; */
+    /* z-index: 999; */
+}
+.navcards {
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    padding: 10px 15px;
+    margin-left: 140px;
+    width: 140px;
+    height: 55px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search input{
+    padding: 10px 12px;
+    width: 35vw;
+    font-size: 1.1rem;
+    padding-right: 30px; /* Adjust the value based on the size of the icon */
+
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the value based on the position you want */
+    transform: translateY(-50%);
+    font-size:  18px;
+    cursor: pointer;
+}
+
+
+.search-input::placeholder {
+    text-align: center;
+    font-size: 2rem;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login button {
+    height: 38px;
+    width: 8vw;
+    color: #2874f0;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+ul li{
+    list-style-type: none;
+    width: 11vw;
+}
+ul li a {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+.become{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.become a{
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+.navbar ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+}
+
+ul button{
+    cursor: pointer;
+    outline: none;
+    width: 6vw;
+}
+.dropbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: pointer;
+}   
+
+
+/* Main Section  */
+
+
+
+.navcards {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+    min-height: 112px;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 2px;
+    position: relative;
+}
+.card img{
+    cursor: pointer;
+}
+.card p a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    position: absolute;
+    left: 25px;
+}
+hr {
+    height: 2px;
+    background-color: #000;
+    border: none;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Section slider   */
+
+.slider{
+    width: 80%;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+    position: relative;
+    /* margin-top: 10px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+    cursor: pointer;
+}
+.btnslider{
+    text-align: center;
+    margin-top: 15px;
+}
+.btnslider button{
+    font-size: 25px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+/* footer   */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+}
+
+
